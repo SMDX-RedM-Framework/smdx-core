@@ -25,7 +25,7 @@ SMDXConfig.Player.Bloodtypes = {
 
 SMDXConfig.Server = {} -- General server config
 SMDXConfig.Server.Closed = false -- Set server closed (no one can join except people with ace permission 'qbadmin.join')
-SMDXConfig.Server.ClosedReason = "Server Stängd" -- Reason message to display when people can't join the server
+SMDXConfig.Server.ClosedReason = "Server Closed" -- Reason message to display when people can't join the server
 SMDXConfig.Server.Uptime = 0 -- Time the server has been up.
 SMDXConfig.Server.Whitelist = false -- Enable or disable whitelist on the server
 SMDXConfig.Server.WhitelistPermission = 'admin' -- Permission that's able to enter the server when the whitelist is on
