@@ -1,0 +1,4 @@
+SMDXShared.Locations = {
+    -- add here
+
+}
