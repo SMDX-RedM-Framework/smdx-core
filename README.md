@@ -17,3 +17,4 @@
 - converted and remade by : https://github.com/QRCore-RedM-Re
 
 # This version is reworked by SMDX Development
+# 2024
