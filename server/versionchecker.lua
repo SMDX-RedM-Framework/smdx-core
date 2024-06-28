@@ -6,7 +6,7 @@ local SMDXCore = exports['smdx-core']:GetSMDX()
 local function versionCheckPrint(_type, log)
     local color = _type == 'success' and '^2' or '^1'
 
-    print(('^5['..GetCurrentResourceName()..']%s %s^7'):format(color, log))
+    print(('^1['..GetCurrentResourceName()..']%s %s^7'):format(color, log))
 end
 
 local function CheckVersion()
