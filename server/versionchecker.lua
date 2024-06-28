@@ -14,7 +14,7 @@ local function CheckVersion()
         local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version')
 
         if not text then 
-            versionCheckPrint('error', 'För tillfället så kan vi inte köra en versions kontroll...')
+            versionCheckPrint('error', 'We are unable to run a version check at this moment...')
             return 
         end
 
@@ -22,9 +22,9 @@ local function CheckVersion()
         --versionCheckPrint('success', ('Latest Version: %s'):format(text))
         
         if text == currentVersion then
-            versionCheckPrint('success', 'Du använder dig utav den SENASTE versionen')
+            versionCheckPrint('success', 'You are using the latest version!')
         else
-            versionCheckPrint('error', ('Du använder just nu en gammal version, vänligen uppdatera till version %s'):format(text))
+            versionCheckPrint('error', ('You are using a old version of the script, please update to version %s'):format(text))
         end
     end)
 end
